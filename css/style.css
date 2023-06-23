@@ -377,17 +377,10 @@ a:after {
   line-height: 1.8em;
 }
 
-.faq-box a:before {
-  color: #fff;
-  opacity: 70%;
-}
-
-.faq-box a:after {
-  color: #fff;
-  opacity: 70%;
-}
-
-.faq-box a:visited {
+.faq-box a , 
+.faq-box a:before,
+.faq-box a:after,
+.faq-box a:visited{
   color: #fff;
   opacity: 70%;
 }
@@ -462,6 +455,7 @@ a:after {
   }
   .faq-section .boxes .question{
     font-size: 20px;
+    font-weight: bold;
   }
 
   .boxes .plus{
