@@ -13,23 +13,27 @@
 <body>
 
     <div class="header">
-        <nav>
-            <img src="./images/logo2.png" alt="" class="logo">
-            <div>
-                <select class="language">
-                    <option value="english">&#127760; English</option>
-                    <option value="hindi">हिंदी</option>
-                </select>
-                <button disabled type="submit" class="sign-in-button">Sign In</button>
-            </div>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="nav-content">
+                    <img src="./images/logo2.png" alt="" class="logo">
+                    <div>
+                        <select class="language">
+                            <option value="english" selected>&#127760; <span class="lang">English</span></option>
+                            <option value="hindi">&#127760; <span class="lang">हिंदी</span></option>
+                        </select>
+                        <button disabled type="submit" class="sign-in-button">Sign In</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
         <div class="header-content">
             <h1>Unlimited movies, TV shows and more</h1>
             <h3>Watch anywhere. Cancel anytime</h3>
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <form action="in/signup/" method="POST"  class="newsletter">
+            <form action="in/signup/" method="POST" class="newsletter">
                 <input class="email" type="email" placeholder="Email address" required>
-                <button disabled class="get-button" type="submit">Get Started <i class="fa fa-angle"></i></button>
+                <button disabled class="get-button" type="submit">Get Started <i class="fa fa-angle-right"></i></button>
             </form>
         </div>
     </div>
@@ -50,14 +54,14 @@
                     <img src="./images/tv.png" alt="" class="tv">
                     <video class="video-1" autoplay="" playsinline="" muted="" loop="">
                         <source
-                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
-                        type="video/mp4">
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                            type="video/mp4">
                     </video>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div class="grey"></div>
     <!-- downlaod shows -->
     <div class="features">
@@ -72,7 +76,9 @@
                             <br>
                             <a href="#">Downloading...</a>
                         </div>
-                        <div><img class="download-gif" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"></div>
+                        <div><img class="download-gif"
+                                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -121,7 +127,8 @@
             <div class="text-col">
                 <div>
                     <h2>Create profiles for kids</h2>
-                    <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+                    <p>Send children on adventures with their favourite characters in a space made just for them—free
+                        with your membership.</p>
                 </div>
             </div>
         </div>
@@ -240,4 +247,5 @@
         </div>
     </footer>
 </body>
+
 </html>
