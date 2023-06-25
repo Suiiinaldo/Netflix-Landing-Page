@@ -28,9 +28,11 @@ body {
 }
 
 nav{
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,auto));
   justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
   padding: 10px 0;
 }
 
@@ -51,7 +53,8 @@ nav{
   font-size: 12px;
   padding: 7px 20px;
   border-radius: 4px;
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .sign-in-button:hover{
