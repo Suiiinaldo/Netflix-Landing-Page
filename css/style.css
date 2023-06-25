@@ -426,11 +426,13 @@ a:after {
   }
 
   .header-content h3{
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: bold;
   }
 
   .header-content p{
-    font-size: 20px;
+    font-size: 12px;
+    font-weight: bold;
   }
 
   .img-col,.text-col,.second{
@@ -463,7 +465,8 @@ a:after {
   }
 
   .end-message h3{
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: bold;
   }
 }
 
